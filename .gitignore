@@ -1,0 +1,28 @@
+# Android build artifacts and binaries (larger than 100MB GitHub limit)
+*.apk
+*.aab
+
+# Flutter & Dart build / cache
+notebook_app/build/
+notebook_app/.dart_tool/
+notebook_app/.flutter-plugins
+notebook_app/.flutter-plugins-dependencies
+notebook_app/.packages
+notebook_app/.pub-cache/
+notebook_app/.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+notebook_app/android/app/debug/
+notebook_app/android/app/profile/
+notebook_app/android/app/release/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,278 @@
+{
+  "source": "61920565-85be-4fa3-aeea-067aaa2aed39.png",
+  "note": "Animations are extracted by horizontal occupied bands. Review naming before assigning semantic states.",
+  "animations": [
+    {
+      "animation": 1,
+      "frames": 8,
+      "frame_width": 17,
+      "frame_height": 21,
+      "strip": "animation_01.png",
+      "frames_folder": "animation_01_frames"
+    },
+    {
+      "animation": 2,
+      "frames": 6,
+      "frame_width": 28,
+      "frame_height": 17,
+      "strip": "animation_02.png",
+      "frames_folder": "animation_02_frames"
+    },
+    {
+      "animation": 3,
+      "frames": 6,
+      "frame_width": 13,
+      "frame_height": 24,
+      "strip": "animation_03.png",
+      "frames_folder": "animation_03_frames"
+    },
+    {
+      "animation": 4,
+      "frames": 6,
+      "frame_width": 13,
+      "frame_height": 27,
+      "strip": "animation_04.png",
+      "frames_folder": "animation_04_frames"
+    },
+    {
+      "animation": 5,
+      "frames": 6,
+      "frame_width": 25,
+      "frame_height": 26,
+      "strip": "animation_05.png",
+      "frames_folder": "animation_05_frames"
+    },
+    {
+      "animation": 6,
+      "frames": 6,
+      "frame_width": 25,
+      "frame_height": 26,
+      "strip": "animation_06.png",
+      "frames_folder": "animation_06_frames"
+    },
+    {
+      "animation": 7,
+      "frames": 6,
+      "frame_width": 17,
+      "frame_height": 25,
+      "strip": "animation_07.png",
+      "frames_folder": "animation_07_frames"
+    },
+    {
+      "animation": 8,
+      "frames": 6,
+      "frame_width": 17,
+      "frame_height": 25,
+      "strip": "animation_08.png",
+      "frames_folder": "animation_08_frames"
+    },
+    {
+      "animation": 9,
+      "frames": 6,
+      "frame_width": 20,
+      "frame_height": 24,
+      "strip": "animation_09.png",
+      "frames_folder": "animation_09_frames"
+    },
+    {
+      "animation": 10,
+      "frames": 6,
+      "frame_width": 20,
+      "frame_height": 24,
+      "strip": "animation_10.png",
+      "frames_folder": "animation_10_frames"
+    },
+    {
+      "animation": 11,
+      "frames": 2,
+      "frame_width": 28,
+      "frame_height": 17,
+      "strip": "animation_11.png",
+      "frames_folder": "animation_11_frames"
+    },
+    {
+      "animation": 12,
+      "frames": 2,
+      "frame_width": 28,
+      "frame_height": 17,
+      "strip": "animation_12.png",
+      "frames_folder": "animation_12_frames"
+    },
+    {
+      "animation": 13,
+      "frames": 2,
+      "frame_width": 21,
+      "frame_height": 14,
+      "strip": "animation_13.png",
+      "frames_folder": "animation_13_frames"
+    },
+    {
+      "animation": 14,
+      "frames": 2,
+      "frame_width": 21,
+      "frame_height": 14,
+      "strip": "animation_14.png",
+      "frames_folder": "animation_14_frames"
+    },
+    {
+      "animation": 15,
+      "frames": 2,
+      "frame_width": 22,
+      "frame_height": 14,
+      "strip": "animation_15.png",
+      "frames_folder": "animation_15_frames"
+    },
+    {
+      "animation": 16,
+      "frames": 2,
+      "frame_width": 22,
+      "frame_height": 14,
+      "strip": "animation_16.png",
+      "frames_folder": "animation_16_frames"
+    },
+    {
+      "animation": 17,
+      "frames": 9,
+      "frame_width": 13,
+      "frame_height": 19,
+      "strip": "animation_17.png",
+      "frames_folder": "animation_17_frames"
+    },
+    {
+      "animation": 18,
+      "frames": 9,
+      "frame_width": 13,
+      "frame_height": 20,
+      "strip": "animation_18.png",
+      "frames_folder": "animation_18_frames"
+    },
+    {
+      "animation": 19,
+      "frames": 9,
+      "frame_width": 23,
+      "frame_height": 19,
+      "strip": "animation_19.png",
+      "frames_folder": "animation_19_frames"
+    },
+    {
+      "animation": 20,
+      "frames": 9,
+      "frame_width": 23,
+      "frame_height": 19,
+      "strip": "animation_20.png",
+      "frames_folder": "animation_20_frames"
+    },
+    {
+      "animation": 21,
+      "frames": 9,
+      "frame_width": 16,
+      "frame_height": 19,
+      "strip": "animation_21.png",
+      "frames_folder": "animation_21_frames"
+    },
+    {
+      "animation": 22,
+      "frames": 9,
+      "frame_width": 16,
+      "frame_height": 19,
+      "strip": "animation_22.png",
+      "frames_folder": "animation_22_frames"
+    },
+    {
+      "animation": 23,
+      "frames": 9,
+      "frame_width": 14,
+      "frame_height": 20,
+      "strip": "animation_23.png",
+      "frames_folder": "animation_23_frames"
+    },
+    {
+      "animation": 24,
+      "frames": 9,
+      "frame_width": 14,
+      "frame_height": 20,
+      "strip": "animation_24.png",
+      "frames_folder": "animation_24_frames"
+    },
+    {
+      "animation": 25,
+      "frames": 9,
+      "frame_width": 13,
+      "frame_height": 22,
+      "strip": "animation_25.png",
+      "frames_folder": "animation_25_frames"
+    },
+    {
+      "animation": 26,
+      "frames": 4,
+      "frame_width": 13,
+      "frame_height": 23,
+      "strip": "animation_26.png",
+      "frames_folder": "animation_26_frames"
+    },
+    {
+      "animation": 27,
+      "frames": 8,
+      "frame_width": 14,
+      "frame_height": 20,
+      "strip": "animation_27.png",
+      "frames_folder": "animation_27_frames"
+    },
+    {
+      "animation": 28,
+      "frames": 5,
+      "frame_width": 14,
+      "frame_height": 20,
+      "strip": "animation_28.png",
+      "frames_folder": "animation_28_frames"
+    },
+    {
+      "animation": 29,
+      "frames": 6,
+      "frame_width": 14,
+      "frame_height": 20,
+      "strip": "animation_29.png",
+      "frames_folder": "animation_29_frames"
+    },
+    {
+      "animation": 30,
+      "frames": 8,
+      "frame_width": 14,
+      "frame_height": 21,
+      "strip": "animation_30.png",
+      "frames_folder": "animation_30_frames"
+    },
+    {
+      "animation": 31,
+      "frames": 5,
+      "frame_width": 14,
+      "frame_height": 21,
+      "strip": "animation_31.png",
+      "frames_folder": "animation_31_frames"
+    },
+    {
+      "animation": 32,
+      "frames": 6,
+      "frame_width": 14,
+      "frame_height": 21,
+      "strip": "animation_32.png",
+      "frames_folder": "animation_32_frames"
+    },
+    {
+      "animation": 33,
+      "frames": 11,
+      "frame_width": 16,
+      "frame_height": 22,
+      "strip": "animation_33.png",
+      "frames_folder": "animation_33_frames"
+    },
+    {
+      "animation": 34,
+      "frames": 11,
+      "frame_width": 16,
+      "frame_height": 22,
+      "strip": "animation_34.png",
+      "frames_folder": "animation_34_frames"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+name: notebook_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  image_picker: ^0.8.6
+  path_provider: ^2.0.11
+  permission_handler: ^10.2.0
+  audioplayers: ^4.1.0
+  encrypt: 5.0.1
+  pointycastle: ^3.6.2
+  crypto: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/splash.png
+    - assets/covers/cover_1.jpg
+    - assets/covers/cover_10.jpg
+    - assets/covers/cover_11.jpg
+    - assets/covers/cover_12.jpg
+    - assets/covers/cover_13.jpg
+    - assets/covers/cover_14.jpg
+    - assets/covers/cover_2.jpg
+    - assets/covers/cover_3.jpg
+    - assets/covers/cover_4.jpg
+    - assets/covers/cover_5.jpg
+    - assets/covers/cover_6.jpg
+    - assets/covers/cover_7.jpg
+    - assets/covers/cover_8.jpg
+    - assets/covers/cover_9.jpg
+    - assets/stickers/sticker_25.png
+    - assets/stickers/sticker_26.png
+    - assets/stickers/sticker_27.png
+    - assets/stickers/sticker_28.png
+    - assets/stickers/sticker_29.png
+    - assets/stickers/sticker_30.png
+    - assets/stickers/sticker_31.png
+    - assets/stickers/sticker_32.png
+    - assets/stickers/sticker_33.png
+    - assets/stickers/sticker_34.png
+    - assets/stickers/sticker_35.png
+    - assets/stickers/sticker_36.png
+    - assets/stickers/sticker_37.png
+    - assets/stickers/sticker_38.png
+    - assets/stickers/sticker_39.png
+    - assets/stickers/sticker_40.png
+    - assets/stickers/sticker_41.png
+    - assets/stickers/sticker_42.png
+    - assets/stickers/sticker_43.png
+    - assets/stickers/sticker_44.png
+    - assets/stickers/sticker_45.png
+    - assets/stickers/sticker_46.png
+    - assets/stickers/sticker_47.png
+    - assets/stickers/sticker_48.png
+    - assets/stickers/sticker_49.png
+    - assets/stickers/sticker_50.png
+    - assets/stickers/sticker_51.png
+    - assets/stickers/sticker_52.png
+    - assets/stickers/sticker_53.png
+    - assets/stickers/sticker_54.png
+    - assets/stickers/sticker_55.png
+    - assets/stickers/sticker_56.png
+    - assets/stickers/sticker_57.png
+    - assets/stickers/sticker_58.png
+    - assets/stickers/sticker_59.png
+    - assets/stickers/sticker_60.png
+    - assets/stickers/sticker_61.png
+    - assets/stickers/sticker_62.png
+    - assets/stickers/sticker_63.png
+    - assets/stickers/sticker_64.png
+    - assets/stickers/sticker_65.png
+    - assets/stickers/sticker_66.png
+    - assets/stickers/sticker_67.png
+    - assets/stickers/sticker_68.png
+    - assets/stickers/sticker_69.png
+    - assets/stickers/sticker_70.png
+    - assets/stickers/sticker_71.png
+    - assets/stickers/sticker_72.png
+    - assets/stickers/sticker_73.png
+    - assets/stickers/sticker_74.png
+    - assets/stickers/sticker_75.png
+    - assets/stickers/sticker_76.png
+    - assets/stickers/sticker_77.png
+    - assets/stickers/sticker_78.png
+    - assets/stickers/sticker_79.png
+    - assets/stickers/sticker_80.png
+    - assets/stickers/sticker_81.png
+    - assets/stickers/sticker_82.png
+    - assets/stickers/sticker_83.png
+    - assets/stickers/sticker_84.png
+    - assets/stickers/sticker_85.png
+    - assets/stickers/sticker_86.png
+    - assets/stickers/sticker_87.png
+    - assets/stickers/sticker_88.png
+    - assets/stickers/sticker_89.png
+    - assets/stickers/sticker_90.png
+    - assets/stickers/sticker_91.png
+    - assets/stickers/sticker_92.png
+    - assets/stickers/sticker_93.png
+    - assets/stickers/sticker_94.png
+    - assets/stickers/sticker_95.png
+    - assets/history/history_15.png
+    - assets/history/history_16.png
+    - assets/history/history_17.png
+    - assets/history/history_18.png
+    - assets/history/history_19.png
+    - assets/history/history_20.png
+    - assets/history/history_21.png
+    - assets/history/history_22.png
+    - assets/history/history_23.png
+    - assets/history/history_24.png
+
+
+    - assets/covers/cover_green_girl.png
+    - assets/covers/cover_fawn_fur.png
+    - assets/covers/cover_deer_vintage.png
+    - assets/images/rabbits_banner.png
+    - assets/bunny.png
+    - assets/audio/Notification sound.mp3
+    - assets/sounds/
+    - assets/rabbit/animation_01_frames/
+    - assets/rabbit/animation_02_frames/
+    - assets/rabbit/animation_03_frames/
+    - assets/rabbit/animation_04_frames/
+    - assets/rabbit/animation_05_frames/
+    - assets/rabbit/animation_06_frames/
+    - assets/rabbit/animation_07_frames/
+    - assets/rabbit/animation_08_frames/
+    - assets/rabbit/animation_09_frames/
+    - assets/rabbit/animation_10_frames/
+    - assets/rabbit/animation_11_frames/
+    - assets/rabbit/animation_12_frames/
+    - assets/rabbit/animation_13_frames/
+    - assets/rabbit/animation_14_frames/
+    - assets/rabbit/animation_15_frames/
+    - assets/rabbit/animation_16_frames/
+    - assets/rabbit/animation_17_frames/
+    - assets/rabbit/animation_18_frames/
+    - assets/rabbit/animation_19_frames/
+    - assets/rabbit/animation_20_frames/
+    - assets/rabbit/animation_21_frames/
+    - assets/rabbit/animation_22_frames/
+    - assets/rabbit/animation_23_frames/
+    - assets/rabbit/animation_24_frames/
+    - assets/rabbit/animation_25_frames/
+    - assets/rabbit/animation_26_frames/
+    - assets/rabbit/animation_27_frames/
+    - assets/rabbit/animation_28_frames/
+    - assets/rabbit/animation_29_frames/
+    - assets/rabbit/animation_30_frames/
+    - assets/rabbit/animation_31_frames/
+    - assets/rabbit/animation_32_frames/
+    - assets/rabbit/animation_33_frames/
+    - assets/rabbit/animation_34_frames/
+    - assets/deer/deer_idle.gif
+    - assets/deer/deer_walk.gif
+    - assets/deer/deer_jump.gif
+
+  fonts:
+    - family: Essays1743
+      fonts:
+        - asset: assets/fonts/Essays1743.ttf
+        - asset: assets/fonts/Essays1743-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Essays1743-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Essays1743-BoldItalic.ttf
+          weight: 700
+          style: italic
+
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+        - asset: assets/fonts/Amiri-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Amiri-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Amiri-BoldItalic.ttf
+          weight: 700
+          style: italic
+
